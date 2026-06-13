@@ -1,7 +1,7 @@
 <svg viewBox="0 0 720 155" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
   <style>
     :root {
-      --bg: #ffffff;
+      --bg: transparent;
       --text: #24292f;
       --muted: #57606a;
       --lv0: #ebedf0;
@@ -13,7 +13,7 @@
 
     @media (prefers-color-scheme: dark) {
       :root {
-        --bg: #0d1117;
+        --bg: transparent;
         --text: #c9d1d9;
         --muted: #8b949e;
         --lv0: #161b22;
@@ -24,7 +24,7 @@
       }
     }
 
-    ssvg { background: var(--bg); }
+    svg { background: var(--bg); }
     .title { font-size: 14px; fill: var(--text); }
     .label { font-size: 10px; fill: var(--muted); }
     .lv0 { fill: var(--lv0); }
