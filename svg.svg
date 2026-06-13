@@ -24,7 +24,7 @@
       }
     }
 
-    svg { background: var(--bg); }
+    ssvg { background: var(--bg); }
     .title { font-size: 14px; fill: var(--text); }
     .label { font-size: 10px; fill: var(--muted); }
     .lv0 { fill: var(--lv0); }
